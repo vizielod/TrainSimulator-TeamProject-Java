@@ -1,0 +1,16 @@
+station1
+0
+1
+null
+switch1,rail5;
+GREEN
+false
+---
+station2
+1
+2
+null
+switch1,rail7;
+BLUE
+false
+---

@@ -1,0 +1,19 @@
+Szabalyok:
+A jatek egy terepasztal szimulator, ahol a cel az osszes utas eljuttasa a kivant allomasra.
+Ehhez a vonatokat a kocsik szinenek megfelelo allomasokhoz kell eljuttatni, ahol az utasok
+leszallnak. Ennek elereset tobb eszkoz is segiti. Az elso ilyen eszkoz a valto, ami a vonat
+haladasi iranyat tudja megvaltoztatni. A valto allasat kattintassal lehet vezerelni. A masik
+ilyen az alagut. A palyan tobb alagut is talalhato, de minden idopillanatban csak egy darab
+van engedelyezve. A vonat, ha elhalad egy alagut elott, ami engedelyezve van, akkor abba
+belemegy, es az utjat az alagut belsejeben folytatja. Az aktiv alagutat zold szin jeloli.
+Ha egy nem aktiv alagutra kattintunk, akkor az valik aktivva.
+
+A jateknak akkor van vege, ha a jatekos veszit, vagy ha sikerult a palyan talalhato osszes
+utast leszallitani. Akkor veszit a jatekos, ha ket, a palyan talalhato vonat egymasba utkozik,
+vagy ha a vonat olyan valtora akar ralepni, amire - annak allasabol kifolyolag - nem lephetne.
+Nyerni akkor lehet, ha mind a negy palyan sikeresen leszalltak az utasok.
+
+A jatek a File menu Exit parancsara elmenti az allast, amit egy kovetkezo jatekmenetben a
+File Load menupontjaval lehet visszaallitani.
+
+Jo jatekot kivan a turbosnakes csapat! :)

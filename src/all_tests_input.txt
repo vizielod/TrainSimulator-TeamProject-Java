@@ -1,0 +1,86 @@
+init 0
+listTunnels
+enableTunnel tunnel2
+listTunnels
+init 0
+listTrains
+listStations
+init 0
+listTrains
+setEmptyness carriage1 true
+listTrains
+init 1
+setEmptyness carriage1 false
+setEmptyness carriage2 false
+listTrains
+step
+listSwitches
+step
+listStations
+step
+listTrains
+init 0
+listTrains
+enableTunnel tunnel2
+step
+step
+step
+listStations
+listTrains
+step
+step
+listTrains
+init 0
+listTrains
+enableTunnel tunnel2
+step
+step
+step
+step
+listStations
+listTrains
+init 1
+setEmptyness carriage1 true
+listTrains
+step
+listSwitches
+step
+listStations
+step
+listStations
+listTrains
+init 1
+listTrains
+step
+listTrains
+init 0
+enableTunnel tunnel2
+listTrains
+step
+listTrains
+step
+listTrains
+init 1
+step
+listTrains
+listSwitches
+step
+listTrains
+step
+listTrains
+init 1
+listSwitches
+setSwitch switch1
+listSwitches
+init 2
+listTrains
+step
+init 1
+listSwitches
+setSwitch switch1
+setSwitch switch1
+listSwitches
+listTrains
+step
+step
+exit

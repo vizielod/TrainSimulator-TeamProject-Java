@@ -1,0 +1,311 @@
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2 | carriage1             rail3 | train1                tunnele3                      
+<tunnel1><1,0><1,2><true>
+<tunnel2><3,3><3,1><false>
+tunnel2 tunnel sikeresen aktivalva lett.
+<tunnel1><1,0><1,2><false>
+<tunnel2><3,3><3,1><true>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2 | carriage1             rail3 | train1                tunnele3                      
+<train1><2,3>
+<carriage1><1,3><GREEN><false>
+<station1><3,0><BLUE><true>
+<station2><2,0><GREEN><true>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2 | carriage1             rail3 | train1                tunnele3                      
+<train1><2,3>
+<carriage1><1,3><GREEN><false>
+Kocsi uressege atallitva.
+<train1><2,3>
+<carriage1><1,3><GREEN><true>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1 | carriage2             rail2 | carriage1             rail3 | train1                null                          
+1    station1                      switch1                       rail4                         null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+Kocsi uressege atallitva.
+Kocsi uressege atallitva.
+<train1><2,0>
+<carriage1><1,0><GREEN><false>
+<carriage2><0,0><BLUE><false>
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2 | carriage2             rail3 | carriage1             null                          
+1    station1                      switch1                       rail4 | train1                null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<switch1><1,1><Activepair: rail4, station1>
+2. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2                         rail3 | carriage2             null                          
+1    station1                      switch1 | train1              rail4 | carriage1             null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<station1><0,1><GREEN><false>
+<station2><1,2><BLUE><false>
+3. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2                         rail3                         null                          
+1    station1 | train1             switch1 | carriage1           rail4 | carriage2             null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<train1><0,1>
+<carriage1><1,1><GREEN><true>
+<carriage2><2,1><BLUE><false>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2 | carriage1             rail3 | train1                tunnele3                      
+<train1><2,3>
+<carriage1><1,3><GREEN><false>
+tunnel2 tunnel sikeresen aktivalva lett.
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2                         rail3 | carriage1             tunnele3 | train1             
+2. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2 | train1          
+3    null                          rail2                         rail3                         tunnele3 | carriage1          
+3. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4 | train1             
+2    null                          tunnele2                      null                          tunnelrail2 | carriage1       
+3    null                          rail2                         rail3                         tunnele3                      
+<station1><3,0><BLUE><true>
+<station2><2,0><GREEN><true>
+<train1><3,1>
+<carriage1><3,2><GREEN><false>
+4. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1 | train1             
+1    null                          tunnelrail1                   null                          tunnele4 | carriage1          
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2                         rail3                         tunnele3                      
+5. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2                         rail3                         tunnele3                      
+Nincs vonat.
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2 | carriage1             rail3 | train1                tunnele3                      
+<train1><2,3>
+<carriage1><1,3><GREEN><false>
+tunnel2 tunnel sikeresen aktivalva lett.
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2                         rail3 | carriage1             tunnele3 | train1             
+2. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2 | train1          
+3    null                          rail2                         rail3                         tunnele3 | carriage1          
+3. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4 | train1             
+2    null                          tunnele2                      null                          tunnelrail2 | carriage1       
+3    null                          rail2                         rail3                         tunnele3                      
+4. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1 | train1             
+1    null                          tunnelrail1                   null                          tunnele4 | carriage1          
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2                         rail3                         tunnele3                      
+<station1><3,0><BLUE><true>
+<station2><2,0><GREEN><true>
+<train1><3,0>
+<carriage1><3,1><GREEN><false>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1 | carriage2             rail2 | carriage1             rail3 | train1                null                          
+1    station1                      switch1                       rail4                         null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+Kocsi uressege atallitva.
+<train1><2,0>
+<carriage1><1,0><GREEN><true>
+<carriage2><0,0><BLUE><false>
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2 | carriage2             rail3 | carriage1             null                          
+1    station1                      switch1                       rail4 | train1                null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<switch1><1,1><Activepair: rail4, station1>
+2. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2                         rail3 | carriage2             null                          
+1    station1                      switch1 | train1              rail4 | carriage1             null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<station1><0,1><GREEN><false>
+<station2><1,2><BLUE><false>
+3. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2                         rail3                         null                          
+1    station1 | train1             switch1 | carriage1           rail4 | carriage2             null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<station1><0,1><GREEN><true>
+<station2><1,2><BLUE><false>
+<train1><0,1>
+<carriage1><1,1><GREEN><false>
+<carriage2><2,1><BLUE><false>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1 | carriage2             rail2 | carriage1             rail3 | train1                null                          
+1    station1                      switch1                       rail4                         null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<train1><2,0>
+<carriage1><1,0><GREEN><false>
+<carriage2><0,0><BLUE><false>
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2 | carriage2             rail3 | carriage1             null                          
+1    station1                      switch1                       rail4 | train1                null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<train1><2,1>
+<carriage1><2,0><GREEN><false>
+<carriage2><1,0><BLUE><false>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2 | carriage1             rail3 | train1                tunnele3                      
+tunnel2 tunnel sikeresen aktivalva lett.
+<train1><2,3>
+<carriage1><1,3><GREEN><false>
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2                   
+3    null                          rail2                         rail3 | carriage1             tunnele3 | train1             
+<train1><3,3>
+<carriage1><2,3><GREEN><false>
+2. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         tunnele1                      station2                      station1                      
+1    null                          tunnelrail1                   null                          tunnele4                      
+2    null                          tunnele2                      null                          tunnelrail2 | train1          
+3    null                          rail2                         rail3                         tunnele3 | carriage1          
+<train1><3,2>
+<carriage1><3,3><GREEN><false>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1 | carriage2             rail2 | carriage1             rail3 | train1                null                          
+1    station1                      switch1                       rail4                         null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2 | carriage2             rail3 | carriage1             null                          
+1    station1                      switch1                       rail4 | train1                null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<train1><2,1>
+<carriage1><2,0><GREEN><false>
+<carriage2><1,0><BLUE><false>
+<switch1><1,1><Activepair: rail4, station1>
+2. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2                         rail3 | carriage2             null                          
+1    station1                      switch1 | train1              rail4 | carriage1             null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<train1><1,1>
+<carriage1><2,1><GREEN><false>
+<carriage2><2,0><BLUE><false>
+3. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2                         rail3                         null                          
+1    station1 | train1             switch1 | carriage1           rail4 | carriage2             null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<train1><0,1>
+<carriage1><1,1><GREEN><true>
+<carriage2><2,1><BLUE><false>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1 | carriage2             rail2 | carriage1             rail3 | train1                null                          
+1    station1                      switch1                       rail4                         null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<switch1><1,1><Activepair: rail4, station1>
+switch1 switch sikeresen at lett allitva.
+<switch1><1,1><Activepair: rail4, station2>
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1 | train1                rail2                         rail3 | train2                null                          
+1    null                          null                          null                          null                          
+2    null                          null                          null                          null                          
+3    null                          null                          null                          null                          
+<train1><0,0>
+<train2><2,0>
+game over
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2 | train1 | train2       rail3                         null                          
+1    null                          null                          null                          null                          
+2    null                          null                          null                          null                          
+3    null                          null                          null                          null                          
+Az inicializalas sikeres volt.
+y/x  0                             1                             2                             3                             
+0    rail1 | carriage2             rail2 | carriage1             rail3 | train1                null                          
+1    station1                      switch1                       rail4                         null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+<switch1><1,1><Activepair: rail4, station1>
+switch1 switch sikeresen at lett allitva.
+switch1 switch sikeresen at lett allitva.
+<switch1><1,1><Activepair: station1, station2>
+<train1><2,0>
+<carriage1><1,0><GREEN><false>
+<carriage2><0,0><BLUE><false>
+1. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2 | carriage2             rail3 | carriage1             null                          
+1    station1                      switch1                       rail4 | train1                null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          
+game over
+2. lepes.
+y/x  0                             1                             2                             3                             
+0    rail1                         rail2                         rail3 | carriage2             null                          
+1    station1                      switch1 | train1              rail4 | carriage1             null                          
+2    rail5                         station2                      rail7                         rail8                         
+3    rail6                         null                          null                          null                          

@@ -1,0 +1,17 @@
+rail1
+0
+0
+train1
+null,rail2;
+---
+rail2
+1
+0
+null
+rail1,rail3;
+---
+rail3
+2
+0
+train2
+rail2,null;

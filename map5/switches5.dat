@@ -1,0 +1,14 @@
+switch1
+4
+12
+null
+rail10,rail11;rail10,rail32;rail32,rail11;
+rail10,rail11
+---
+switch2
+7
+0
+null
+rail20,rail21;rail41,rail20;rail41,rail21;
+rail20,rail21
+---

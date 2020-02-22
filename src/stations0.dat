@@ -1,0 +1,16 @@
+station1
+3
+0
+null
+station2,tunnele4;
+BLUE
+true
+---
+station2
+2
+0
+null
+null,station1
+GREEN
+true
+---
